@@ -1,0 +1,25 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.puntaje{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.item{
+    background-color:black ;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    -webkit-mask-image: url("../img/estrella.svg");
+    mask-image: url("../img/estrella.svg");
+}
+
+.item.select {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
